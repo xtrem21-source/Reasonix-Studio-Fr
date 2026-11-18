@@ -9,6 +9,27 @@ The version number follows the upstream Reasonix Studio release it packages.
 
 ---
 
+## [2.61-fr] — 2026-11-18
+
+Updated to **Reasonix Studio 2.61.0**, with three everyday-use fixes on top of the
+French localisation.
+
+### Added
+
+- **Attachment paste**: a screenshot pasted into the composer is no longer rejected.
+  The server required a file extension, which a capture does not always carry; it is
+  now derived from the actual image type.
+- **OpenCode bridge**: OpenCode's free models are exposed as a local provider, with no
+  third-party key.
+
+### Changed
+
+- **Microphone key**: it is now read from `data/home/.env` first, instead of only from
+  the encrypted vault. It can therefore be typed into the provider settings, like any
+  other key. The vault is still read as a fallback, so no stored key is lost.
+
+---
+
 ## [2.50-fr] — 2026-10-24
 
 First published French build of **Reasonix Studio 2.50.0** for Windows x64.

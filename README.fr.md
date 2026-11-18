@@ -25,7 +25,7 @@ anglais (`README.md`, `CHANGELOG.md`).
 
 | Élément | Détail |
 |---|---|
-| Reasonix Studio | **2.50.0**, Windows x64, tel que publié en amont |
+| Reasonix Studio | **2.61.0**, Windows x64, tel que publié en amont |
 | Interface | **5 047 libellés traduits**, langue automatique forcée en français |
 | Micro | dictée intégrée à la zone de saisie, choix du fournisseur, repli automatique |
 | Conditionnement | un simple dossier — sans installateur, sans entrée de registre, sans droit administrateur |

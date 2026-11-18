@@ -25,7 +25,7 @@ Documentation exists in English (`README.md`, `CHANGELOG.md`) and in French
 
 | Item | Detail |
 |---|---|
-| Reasonix Studio | **2.50.0**, Windows x64, as published upstream |
+| Reasonix Studio | **2.61.0**, Windows x64, as published upstream |
 | Interface | **5 047 strings translated**, automatic language forced to French |
 | Microphone | dictation wired into the chat composer, provider selection, automatic fallback |
 | Packaging | a plain folder — no installer, no registry entry, no administrator rights |

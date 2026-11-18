@@ -11,6 +11,28 @@ La version anglaise de ce fichier est `CHANGELOG.md`.
 
 ---
 
+## [2.61-fr] — 2026-11-18
+
+Mise à jour vers **Reasonix Studio 2.61.0**, avec trois correctifs d'usage quotidien en
+plus de la francisation.
+
+### Ajouté
+
+- **Collage des pièces jointes** : une capture d'écran collée dans la zone de saisie
+  n'est plus refusée. Le serveur exigeait une extension de fichier, qu'une capture
+  n'apporte pas toujours ; elle est désormais déduite du type réel de l'image.
+- **Pont OpenCode** : les modèles gratuits d'OpenCode sont exposés comme fournisseur
+  local, sans clé tierce.
+
+### Modifié
+
+- **Clé du micro** : elle est lue dans `data/home/.env` en priorité, et non plus
+  seulement dans le coffre chiffré. Elle peut donc être saisie dans les réglages des
+  fournisseurs, comme les autres. Le coffre reste lu en second recours, pour ne perdre
+  aucune clé déjà enregistrée.
+
+---
+
 ## [2.50-fr] — 2026-10-24
 
 Première version française publiée de **Reasonix Studio 2.50.0** pour Windows x64.
